@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>my portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    .info-box {
+      background: white;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-left: 5px solid #333;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .resume-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .resume-link:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SaiHimaBindu</h1>
+    <p>Web Developer </p>
+  </header>
+
+  <nav>
+    <a href="#introduction">Introduction</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#location">Location</a>
+    <a href="#personal">Personal Info</a>
+    <a href="#resume">Resume</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <div class="info-box">
+      <p>Hello! I'm bindu, a passionate web developer with a knack for creating clean, responsive, and user-friendly websites. I love turning ideas into reality through code and design.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education Qualifications</h2>
+    <div class="info-box">
+      <ul>
+        <li>Master of Technology in Computer Science – vignan University</li>
+        <li>Bachelor of computer applications – Asn degree College</li>
+        <li>Higher Secondary – zphs School </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="info-box">
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Node.js</li>
+        <li>UI/UX Design</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="location">
+    <h2>Location</h2>
+    <div class="info-box">
+      <p>Tenali, Andhra Pradesh, India</p>
+    </div>
+  </section>
+
+  <section id="personal">
+    <h2>Personal Information</h2>
+    <div class="info-box">
+      <p><strong>Email:</strong> bindu@gmail.com</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Date of Birth:</strong> January 15, 2005</p>
+      <p><strong>Languages:</strong> English, Telugu</p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="info-box">
+      <p>You can download my resume below:</p>
+      <a href="resume.pdf" class="resume-link" target="_blank">Download Resume</a>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="info-box">
+      <h3>Portfolio Website</h3>
+      <p>A responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="info-box">
+      <h3>Task Manager App</h3>
+      <p>A full-stack task management app using React and Node.js.</p>
+    </div>
+    <div class="info-box">
+      <h3>Weather Dashboard</h3>
+      <p>A weather app that fetches real-time data using OpenWeather API.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 bindu. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
