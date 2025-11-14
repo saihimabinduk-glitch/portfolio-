@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arrays in JavaScript</title>
+</head>
+<body>
+    <h1>Creating and Accessing Arrays in JavaScript</h1>
+    <script>
+        // Creating arrays
+        let fruits = ["Apple", "Banana", "Mango", "Orange"];
+        let numbers = new Array(10, 20, 30, 40);
+        // Accessing elements
+        document.write("<b>First fruit:</b> " + fruits[0] + "<br>");
+        document.write("<b>Second number:</b> " + numbers[1] + "<br><br>");
+        // Display all elements using for loop
+        document.write("<b>All Fruits:</b><br>");
+        for (let i = 0; i < fruits.length; i++) {
+            document.write(fruits[i] + "<br>");
+        }
+
+        // Using for-of loop
+        document.write("<br><b>All Numbers:</b><br>");
+        for (let num of numbers) {
+            document.write(num + "<br>");
+        }
+        // Using array methods
+        fruits.push("Pineapple");  // Add element
+        document.write("<br><b>After push:</b> " + fruits.join(", ") + "<br>");
+        fruits.pop();  // Remove last element
+        document.write("<b>After pop:</b> " + fruits.join(", ") + "<br>");
+        document.write("<b>Array Length:</b> " + fruits.length);
+    </script>
+</body>
+</html>
